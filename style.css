@@ -111,7 +111,7 @@ body {
   width: 200px;
   top: 120px;
   opacity: 0.5;
-  animation: wind 60s linear infinite reverse;
+  animation: wind 4s linear infinite reverse;
 }
 
 /*// KEYFRAMES //*/
