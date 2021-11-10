@@ -19,11 +19,11 @@ body {
   /* background-color: lightskyblue;
   background-size: cover; */
   animation-name: night;
-  animation-duration: 21s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
 }
 .grass{
-  height: 40%;
+  height: 100%;
   background-image: url(/img/pngfind.com-grass-field-png-2931436.png);
 }
 
@@ -86,7 +86,7 @@ body {
   left: 0;
   height: 120px;
   animation-name: drive;
-  animation-duration: 10s;
+  animation-duration: 5s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
 
@@ -103,14 +103,14 @@ body {
   top: 180px;
   height: 120px;
   /* Short hand, the first item has to be animation and second item has to be duration, the rest of the order does not matter */
-  animation: sun 17s infinite reverse;
+  animation: sun 5s infinite reverse;
 }
 .cloud:nth-child(2) {
   width: 300px;
   top: 0;
   width: 200px;
   top: 120px;
-  opacity: 0.5;
+  opacity: 1;
   animation: wind 4s linear infinite reverse;
 }
 
@@ -140,20 +140,5 @@ body {
   }
   to {
     left: 100%;
-  }
-}
-
-@keyframes night{
-  0%{
-    background-color: lightskyblue;
-  }
-  33%{
-    background-color: lightskyblue;
-  }
-  66%{
-    background-color: lightskyblue;
-  }
-  100%{
-    display: night;
   }
 }
